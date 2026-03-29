@@ -23,7 +23,7 @@ const Search = ({ setCity, loading }) => {
                             }
                         })}
                         placeholder="e.g., Mumbai"
-                        className="px-2 py-1.5 md:py-2.5 pr-8 md:w-96 focus:bg-zinc-300/40 duration-200 rounded-lg shadow-[4px_4px_8px_#cfcfcf,-4px_-4px_8px_#ffffff] text-gray-600 text-sm border-none outline-none"
+                        className="px-2 w-50 py-1.5 md:py-2.5 pr-8 md:w-96 focus:bg-zinc-300/40 duration-200 rounded-lg shadow-[4px_4px_8px_#cfcfcf,-4px_-4px_8px_#ffffff] text-gray-600 text-sm border-none outline-none"
                         type="text"
                     />
                     <CiLocationOn className="absolute right-2 top-1/2 -translate-y-1/2 text-gray-500 cursor-pointer" size={15} />
